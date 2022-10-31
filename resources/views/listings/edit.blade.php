@@ -111,7 +111,7 @@
 
             <img
                 class="w-48 mx-auto mb-6 object-cover"
-                src="{{$listing->logo ? asset("/storage$listing->logo") : asset('/images/no-image.png')}}"
+                src="{{$listing->logo ? asset("/storage/$listing->logo") : asset('/images/no-image.png')}}"
                 alt={{$listing->company}}
             />
 
